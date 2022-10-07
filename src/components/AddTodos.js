@@ -17,7 +17,7 @@ function AddTodos() {
         <div className='AddTodos'>
         <h3>Add Todos</h3>
         <div className='FormField'>
-          <input className='FormField__Input' ref={inputRef}></input>
+          <input className='FormField__Input' ref={inputRef} placeholder="Enter a new todo..."></input>
           <button className='Btn FormField__Button' onClick={addTodo}>Add New Todo</button>
         </div>
       </div>
